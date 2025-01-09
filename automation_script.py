@@ -11,7 +11,7 @@ logging.basicConfig(
                     )
 
 # Step 1: Pull the latest changes from the repository
-def  ():
+def git_pull():
     logging.info("Pulling the latest changes...")
     result = subprocess.run(["git", "pull"], capture_output=True, text=True)
     if result.returncode == 0:
