@@ -10,9 +10,8 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s', #format for logs entry
                     )
 
-
 # Step 1: Pull the latest changes from the repository
-def git_pull():
+def  ():
     logging.info("Pulling the latest changes...")
     result = subprocess.run(["git", "pull"], capture_output=True, text=True)
     if result.returncode == 0:

@@ -1,0 +1,4 @@
+  File "/Users/elyamdery/TrainingRepo/automation_script.py", line 14
+    def  ():
+         ^
+SyntaxError: invalid syntax
